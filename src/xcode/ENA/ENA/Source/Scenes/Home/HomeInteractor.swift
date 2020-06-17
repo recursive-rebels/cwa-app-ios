@@ -200,7 +200,7 @@ extension HomeInteractor {
 				lastUpdateDate: nil,
 				detectionInterval: detectionInterval,
 				detectionMode: detectionMode,
-				manualExposureDetectionState: riskProvider.manualExposureDetectionState
+				manualExposureDetectionState: riskProvider.manualExposureDetectionState ?? .possible
 			)
 		case .inactive:
 			inactiveConfigurator = HomeInactiveRiskCellConfigurator(
@@ -226,7 +226,7 @@ extension HomeInteractor {
 				lastUpdateDate: dateLastExposureDetection,
 				isButtonHidden: detectionIsAutomatic,
 				detectionMode: detectionMode,
-				manualExposureDetectionState: riskProvider.manualExposureDetectionState,
+				manualExposureDetectionState: riskProvider.manualExposureDetectionState ?? .possible,
 				detectionInterval: detectionInterval
 			)
 		case .increased:
@@ -234,7 +234,7 @@ extension HomeInteractor {
 				numberRiskContacts: state.numberRiskContacts,
 				daysSinceLastExposure: state.daysSinceLastExposure,
 				lastUpdateDate: dateLastExposureDetection,
-				manualExposureDetectionState: riskProvider.manualExposureDetectionState,
+				manualExposureDetectionState: riskProvider.manualExposureDetectionState ?? .possible,
 				detectionMode: detectionMode,
 				validityDuration: detectionInterval
 			)
