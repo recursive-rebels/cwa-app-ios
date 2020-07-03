@@ -60,6 +60,7 @@ final class ENATaskScheduler {
 	private func registerTask(with taskIdentifier: ENATaskIdentifier, taskHandler: @escaping ((BGTask) -> Void)) {
 		let identifierString = taskIdentifier.backgroundTaskSchedulerIdentifier
 		BGTaskScheduler.shared.register(forTaskWithIdentifier: identifierString, using: .main) { task in
+			log(message: "#BGTASK: \(task.identifier) EXECUTING", logToFile: true)
 			taskHandler(task)
 			task.expirationHandler = {
 				task.setTaskCompleted(success: false)
@@ -123,6 +124,7 @@ final class ENATaskScheduler {
 	}
 
 	func cancelTask(for taskIdentifier: ENATaskIdentifier) {
+		log(message: "#BGTASK: \(taskIdentifier) CANCELLING", logToFile: true)
 		BGTaskScheduler.shared.cancel(taskRequestWithIdentifier: taskIdentifier.backgroundTaskSchedulerIdentifier)
 	}
 
