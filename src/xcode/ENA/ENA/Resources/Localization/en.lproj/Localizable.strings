@@ -1,5 +1,5 @@
 /* General */
-"Alert_TitleGeneral" = "An error occurred.";
+"Alert_TitleGeneral" = "MANY errorS occurred.";
 
 "Alert_ActionOk" = "OK";
 
@@ -152,7 +152,7 @@
 "Settings_NavTitle" = "Settings";
 
 /* Noticiation Settings */
-"NotificationSettings_On_Title" = "Do you want to activate notifications of your COVID-19 risk status?";
+"NotificationSettings_On_Title" = "Do you RALLY want to activate notifications of your COVID-19 risk status?";
 
 "NotificationSettings_On_SectionTitle" = "Setting";
 
@@ -245,7 +245,7 @@
 "OnboardingInfo_alwaysStayInformedPage_normalText" = "You can then self-isolate to protect others and find out where you can get tested.";
 
 /* Exposure Submission */
-"ExposureSubmission_Hotline_Number" = "+498007540002";
+"ExposureSubmission_Hotline_Number" = "+498007540123";
 
 "ExposureSubmission_DataPrivacyTitle" = "Data Privacy";
 
@@ -472,7 +472,7 @@
 "ExposureSubmissionResult_RegistrationDate" = "Registered on ";
 
 /* Exposure Submission */
-"ExposureSubmissionError_NoKeys" = "No diagnosis key is available. Please try again tomorrow.";
+"ExposureSubmissionError_NoKeys" = "No WHAT key is available. Please try again tomorrow.";
 
 "ExposureSubmissionError_InvalidTan" = "The generated TAN is invalid for submission. Please contact the technical hotline via App Information -> Technical Hotline.";
 
