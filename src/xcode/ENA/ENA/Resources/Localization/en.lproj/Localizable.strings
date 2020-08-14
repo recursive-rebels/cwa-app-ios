@@ -19,7 +19,7 @@
 
 "General_BackButtonTitle" = "Back";
 
-"Common_ENError5_Description" = "Error 5: Something went wrong. Your level of risk cannot be determined. We are working on a solution of the problem.";
+"Common_ENError5_Description" = "Error 5: Something went didn't go well. Your level of risk cannot be determined. We are working on a solution of the problem.";
 
 "Common_ENError11_Description" = "Error 11: Something went wrong. Your level of risk cannot be determined. Please restart your device and try again tomorrow.";
 
