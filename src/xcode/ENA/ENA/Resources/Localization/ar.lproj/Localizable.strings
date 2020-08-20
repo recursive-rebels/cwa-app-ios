@@ -123,7 +123,7 @@
 
 "Settings_Reset_Label" = "إعادة تعيين التطبيق";
 
-"Settings_Tracing_Description" = "السماح بإنشاء معرفات عشوائية لمرض كوفيد-19 ومشاركتها.";
+"Settings_Tracing_Description" = "السماح بإنشاء معرفات عشوائية لمرض كوفيد-19 ومشاركتها. Jasper";
 
 "Settings_Notification_Description" = "السماح بالإشعارات التلقائية لحالة خطر مرض كوفيد-19 لديك.";
 
