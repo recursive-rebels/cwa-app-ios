@@ -40,7 +40,7 @@
 /* Accessibility */
 "AccessibilityLabel_Close" = "Schließen";
 
-"AccessibilityLabel_PhoneNumber" = "Telefonnummer";
+"AccessibilityLabel_PhoneNumber" = "Telefonnummer Jasper";
 
 /* Exposure Detection */
 "ExposureDetection_Off" = "Risiko-Ermittlung gestoppt";
