@@ -22,7 +22,7 @@
 /* Accessibility */
 "AccessibilityLabel_Close" = "Close";
 
-"AccessibilityLabel_PhoneNumber" = "Phone number";
+"AccessibilityLabel_PhoneNumber" = "Phone number. balah";
 
 /* Exposure Detection */
 "ExposureDetection_Off" = "Exposure logging stopped";
