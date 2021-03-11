@@ -9,7 +9,7 @@
 
 "Alert_ActionRemove" = "Remove";
 
-"Alert_BluetoothOff_Title" = "Turn on Bluetooth";
+"Alert_BluetoothOff_Title" = "Turn on Bluetooth!";
 
 "Alert_BluetoothOff_Description" = "Bluetooth must be turned on in your system settings for this app to work.";
 
@@ -683,7 +683,7 @@
 "Home_resultCard_LoadingErrorTitle" = "Your test result could not be loaded.";
 
 /* App Information - About */
-"App_Information_About_Navigation" = "About the App";
+"App_Information_About_Navigation" = "About the app";
 
 "App_Information_About_ImageDescription" = "";
 
