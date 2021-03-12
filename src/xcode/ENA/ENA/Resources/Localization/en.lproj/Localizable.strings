@@ -9,7 +9,7 @@
 
 "Alert_ActionRemove" = "Remove";
 
-"Alert_BluetoothOff_Title" = "Turn on Bluetooth!";
+"Alert_BluetoothOff_Title" = "Turn on Bluetooth test3";
 
 "Alert_BluetoothOff_Description" = "Bluetooth must be turned on in your system settings for this app to work.";
 
