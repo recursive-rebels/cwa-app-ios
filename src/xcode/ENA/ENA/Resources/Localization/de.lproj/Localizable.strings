@@ -1,7 +1,7 @@
 /* General */
 "Alert_TitleGeneral" = "Ein Fehler ist aufgetreten.";
 
-"Alert_ActionOk" = "OK";
+"Alert_ActionOk" = "Okay";
 
 "Alert_ActionRetry" = "Wiederholen";
 
