@@ -1,7 +1,7 @@
 {
   "collections": [
     {
-      "collectionName": "cwa-app-ios",
+      "collectionName": "cwa-app-ios2",
       "folders": [
         {
           "startingFolderPath": "src/xcode/ENA/ENA/Resources/Localization/de.lproj/**",
